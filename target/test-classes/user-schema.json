@@ -1,0 +1,58 @@
+{
+  "schema" : {
+    "element" : {
+      "complexType" : {
+        "sequence" : {
+          "element" : [ {
+            "complexType" : {
+              "simpleContent" : {
+                "extension" : {
+                  "__prefix" : "xs"
+                },
+                "__prefix" : "xs"
+              },
+              "__prefix" : "xs"
+            },
+            "_type" : "xs:string",
+            "_name" : "email",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:string",
+            "_name" : "firstName",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:integer",
+            "_name" : "id",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:string",
+            "_name" : "lastName",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:string",
+            "_name" : "password",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:integer",
+            "_name" : "phone",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:integer",
+            "_name" : "userStatus",
+            "__prefix" : "xs"
+          }, {
+            "_type" : "xs:string",
+            "_name" : "username",
+            "__prefix" : "xs"
+          } ],
+          "__prefix" : "xs"
+        },
+        "__prefix" : "xs"
+      },
+      "_name" : "User",
+      "__prefix" : "xs"
+    },
+    "_xmlns:xs" : "http://www.w3.org/2001/XMLSchema",
+    "__prefix" : "xs"
+  }
+}
