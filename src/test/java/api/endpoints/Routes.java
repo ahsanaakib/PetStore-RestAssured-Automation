@@ -20,5 +20,12 @@ public class Routes {
     public static String deleteOrder_url = base_url + "/store/order/{orderId}";
     public static String inventory_url = base_url + "/store/inventory";
     
+    //Pet module routes
+    public static String post_pet_url = base_url + "/pet";                     
+    public static String get_pet_url = base_url + "/pet/{petId}";   
+    public static String update_pet_url = base_url + "/pet";                   
+    public static String delete_pet_url = base_url + "/pet/{petId}";           
+    public static String find_by_status_url = base_url + "/pet/findByStatus";
+
 
 }

@@ -12,6 +12,7 @@
 			<class name="api.test.UserTestsUsingProperties" />
 			<class name="api.test.DDUserTests" />
 			<class name="api.test.StoreTests" />
+			<class name="api.test.PetTests" />
 		</classes>
 	</test> <!--
 	Test -->
